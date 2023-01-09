@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="./content/icons/shortcut.png">
+    <title>Профиль</title>
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/profile.css">
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="menu_btn"><span></span>
+            <p>меню</p>
+        </div>
+        <div class="profile_btn"><span></span>
+            <p>профиль</p>
+        </div>
+        <div class="notification_btn"><span></span>
+            <p>уведомления</p>
+        </div>
+        <div class="close_btn"><span></span>
+            <p>закрыть</p>
+        </div>
+    </nav>
+    <div class="side_bar_container">
+        <div class="side_bar">
+            <div class="menu">
+                <a href="./find.html">Искать встречу</a>
+                <a href="#accaunt">Мой аккаунт</a>
+                <a href="#meets">Мои встречи</a>
+                <a href="#contact">Контакты</a>
+                <a href="./index.html">Выйти</a>
+            </div>
+            <div class="profile">
+                <div class="img_box">
+                    <img src="./content/images/profile.jpeg" alt="avatar">
+                </div>
+                <div class="profile_data"></div>
+            </div>
+            <div class="notification">
+                <div class="notification_list">
+                    <div class="notification_item">
+                        <h4>23.03.2020</h4>
+                        <p>У вас встреча c <span> Дмитрий Толстолес</span> <a href="https://2gis.com/" target="_blank">Флакон</a></p>
+                    </div>
+                    <div class="notification_item">
+                        <h4>23.04.2020</h4>
+                        <p>У вас встреча c <span> Ася Надыршина</span> <a href="https://2gis.com/" target="_blank">Зарядье</a></p>
+                    </div>
+                    <div class="notification_item">
+                        <h4>23.04.2020</h4>
+                        <p>У вас встреча c <span> Мария Киселева</span> <a href="https://2gis.com/" target="_blank">Белая площадь</a></p>
+                    </div>
+                    <div class="notification_item">
+                        <h4>23.04.2020</h4>
+                        <p>У вас встреча c <span> Владимир Перепелица</span> <a href="https://2gis.com/" target="_blank">Москва Сити</a></p>
+                    </div>
+                    <div class="notification_item">
+                        <h4>23.03.2020</h4>
+                        <p>У вас встреча c <span> Дмитрий Толстолес</span> <a href="https://2gis.com/" target="_blank">Флакон</a></p>
+                    </div>
+                    <div class="notification_item">
+                        <h4>23.04.2020</h4>
+                        <p>У вас встреча c <span> Ася Надыршина</span> <a href="https://2gis.com/" target="_blank">Зарядье</a></p>
+                    </div>
+                    <div class="notification_item">
+                        <h4>23.04.2020</h4>
+                        <p>У вас встреча c <span> Мария Киселева</span> <a href="https://2gis.com/" target="_blank">Белая площадь</a></p>
+                    </div>
+                    <div class="notification_item">
+                        <h4>23.04.2020</h4>
+                        <p>У вас встреча c <span> Владимир Перепелица</span> <a href="https://2gis.com/" target="_blank">Москва Сити</a></p>
+                    </div>
+                </div>
+                <a href="./find.html" class="link">новые встречи</a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <section>
+            <a name="#accaunt" id="accaunt"></a>
+            <h2 class="section_title">Что из этого ваше?</h2>
+            <form action="" class="checkbox_container">
+                <label>
+                    <input type="checkbox" name="option1" value="c1">
+                    <span>Поесть</span>
+                </label>
+                <label class="last_label">
+                    <input type="checkbox" name="option1" value="c2">
+                    <span>Прогулка</span>
+                </label>
+                <label class="last_label">
+                    <input type="checkbox" name="option1" value="c3">
+                    <span>Достопримечательности</span>
+                </label>
+                <label class="last_label">
+                    <input type="checkbox" name="option1" value="c4">
+                    <span>Рандом</span>
+                </label>
+                <label>
+                    <input type="checkbox" name="option1" value="c5">
+                    <span>Красота</span>
+                </label>
+                <label>
+                    <input type="checkbox" name="option1" value="c6">
+                    <span>Развлечения</span>
+                </label>
+                <label>
+                    <input type="checkbox" name="option1" value="c7">
+                    <span>Медицина</span>
+                </label>
+                <label>
+                    <input type="checkbox" name="option1" value="c8">
+                    <span>Шопинг</span>
+                </label>
+                <label class="last_label">
+                    <input type="checkbox" name="option1" value="c10">
+                    <span>Образование</span>
+                </label>
+                <label class="last_label">
+                    <input type="checkbox" name="option1" value="c11">
+                    <span>Ремонт</span>
+                </label>
+                <label class="last_label">
+                    <input type="checkbox" name="option1" value="c12">
+                    <span>Религия</span>
+                </label>
+                <label>
+                    <input type="checkbox" name="option1" value="c9">
+                    <span>Спорт</span>
+                </label>
+            </form>
+        </section>
+        <section>
+            <form id="theForm" class="simform" autocomplete="off">
+                <div class="simform-inner">
+                    <ol class="questions">
+                        <li>
+                            <span><label for="q1">Откуда вы родом?</label></span>
+                            <input id="q1" name="q1" type="text" />
+                        </li>
+                        <li>
+                            <span><label for="q2">Любимое кино?</label></span>
+                            <input id="q2" name="q2" type="text" />
+                        </li>
+                        <li>
+                            <span><label for="q3">Сколько вы будете еще в Москве?</label></span>
+                            <input id="q3" name="q3" type="text" />
+                        </li>
+                        <li>
+                            <span><label for="q4">Какой вид развлечений предпочитаете?</label></span>
+                            <input id="q4" name="q4" type="text" />
+                        </li>
+                        <li>
+                            <span><label for="q5">Любимая книга?</label></span>
+                            <input id="q5" name="q5" type="text" />
+                        </li>
+                        <li>
+                            <span><label for="q6">Ваша профессия?</label></span>
+                            <input id="q6" name="q6" type="text" />
+                        </li>
+                    </ol>
+                    <button class="submit" type="submit"></button>
+                    <div class="controls">
+                        <button class="next"></button>
+                        <div class="progress"></div>
+                        <span class="number">
+                            <span class="number-current"></span>
+                            <span class="number-total"></span>
+                        </span>
+                        <span class="error-message"></span>
+                    </div>
+                </div>
+                <span class="final-message"></span>
+            </form>
+        </section>
+        <section>
+            <h2 class="section_title">Группа из n человек</h2>
+            <form class="range-slider">
+                <input value="1" min="1" max="20" step="1" type="range" readonly>
+                <input value="3" min="1" max="20" step="1" type="range" readonly>
+                <span class="rangeValues"></span>
+            </form>
+        </section>
+        <section>
+            <a href="./find.html" class="link">Найти друга</a>
+        </section>
+        <section class="meets_section">
+            <a name="#meets" id="meets"></a>
+            <h2 class="section_title">Ваши встречи</h2>
+            <div class="meets">
+                <div class="meet">
+                    <div class="img_box">
+                        <img src="./content/images/p1.jpg" alt="person">
+                    </div>
+                    <div class="text_box">
+                        <ul>
+                            <li><h4>Мария Киселева</h4></li>
+                            <li><span>Статус : </span> Вас выбрали</li>
+                            <li><span>Дата : </span> 23.03.2020</li>
+                            <li><span>Место : </span> <a href="https://2gis.com/" target="_blank" class="place">Флакон</a></li>
+                            <li><span>Номер : </span> <a href="tel:+9683546850">+7 968 54 68 250</a></li>
+                        </ul>
+                        <div class="contact_box">
+                            <div class="contact_links">
+                                <a href="">Cвязаться</a>
+                            </div>
+                            <div class="social_net">
+                                <a href=""><img src="./content/icons/twitter.svg" alt="twitter"></a>
+                                <a href=""><img src="./content/icons/instagram.svg" alt="instagram"></a>
+                                <a href=""><img src="./content/icons/whatsapp.svg" alt="whatsapp"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="meet">
+                    <div class="img_box">
+                        <img src="./content/images/p2.jpg" alt="person">
+                    </div>
+                    <div class="text_box">
+                        <ul>
+                            <li><h4>Ася Надыршина</h4></li>
+                            <li><span>Статус : </span> Вас выбрали</li>
+                            <li><span>Дата : </span> 23.03.2020</li>
+                            <li><span>Место : </span> <a href="https://2gis.com/" target="_blank" class="place">Зарядье</a></li>
+                            <li><span>Номер : </span> <a href="tel:+9683546850">+7 968 54 68 250</a></li>
+                        </ul>
+                        <div class="contact_box">
+                            <div class="contact_links">
+                                <a href="">Cвязаться</a>
+                            </div>
+                            <div class="social_net">
+                                <a href=""><img src="./content/icons/twitter.svg" alt="twitter"></a>
+                                <a href=""><img src="./content/icons/instagram.svg" alt="instagram"></a>
+                                <a href=""><img src="./content/icons/whatsapp.svg" alt="whatsapp"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="profile_info">
+            <h2 class="section_title"></h2>
+            <div class="my_place_list">
+                <div class="my_place">
+                    <div class="img_box">
+                        <img src="./content/images/1.jpg" alt="place">
+                    </div>
+                    <p>Москва Сити</p>
+                    <a href="http://2gis.com/" target="_blank">Адрес</a>
+                    <a href="./find.html">Сходить</a>
+                </div>
+                <div class="my_place">
+                    <div class="img_box">
+                        <img src="./content/images/2.jpg" alt="place">
+                    </div>
+                    <p>Зарядье</p>
+                    <a href="http://2gis.com/" target="_blank">Адрес</a>
+                    <a href="./find.html">Сходить</a>
+                </div>
+                <div class="my_place">
+                    <div class="img_box">
+                        <img src="./content/images/3.jpg" alt="place">
+                    </div>
+                    <p>Белая площадь</p>
+                    <a href="http://2gis.com/" target="_blank">Адрес</a>
+                    <a href="./find.html">Сходить</a>
+                </div>
+                <div class="my_place">
+                    <div class="img_box">
+                        <img src="./content/images/4.jpg" alt="place">
+                    </div>
+                    <p>Флакон</p>
+                    <a href="http://2gis.com/" target="_blank">Адрес</a>
+                    <a href="./find.html">Сходить</a>
+                </div>
+            </div>
+            <a href="http://2gis.com/" target="_blank" class="link">добавить место</a>
+        </section>
+        <section class="contact_section">
+            <a name="#contact" id="contact"></a>
+            <h2 class="section_title">Наши контакты</h2>
+            <div class="contact_blocks">
+                <div class="contact_block">
+                    <h4>Служба поддержки</h4>
+                    <a href="mailto:moscowtravel@gmail.com">help@gtravelhack.com</a>
+                    <a href="tel:+79963540830">+7 996 35 40 830</a>
+                </div>
+                <div class="contact_block">
+                    <h4>Сотрудничество</h4>
+                    <a href="tel:+79963540830">+7 996 35 40 830</a>
+                    <a href="mailto:travelhack@gmail.com">info@travelhack.com</a>
+                    <a href="https://2gis.ru/" target="_blank">г. Москва ул. Бутырская 45</a>
+                </div>
+                <div class="contact_block">
+                    <h4>Мы в соц.сетях</h4>
+                    <a href="https://www.instagram.com/" target="_blank">instagram</a>
+                    <a href="https://twitter.com/" target="_blank">twitter</a>
+                    <a href="https://www.facebook.com/" target="_blank">facebook</a>
+                    <a href="https://www.telegram.org/" target="_blank">telegram канал</a>
+                </div>
+                <div class="contact_block">
+                    <h4>Права</h4>
+                    <a href="https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F"
+                        target="_blank">Лицензия праводателя</a>
+                    <a href="https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F"
+                        target="_blank">Условия соглашения</a>
+                    <a href="https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F"
+                        target="_blank">Все права защищены</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <script src="./assets/js/modernizr.custom.js"></script>
+    <script src="./assets/js/classie.js"></script>
+    <script src="./assets/js/stepsForm.js"></script>
+
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/profile.js"></script>
+</body>
+
+</html>
